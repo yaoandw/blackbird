@@ -1,12 +1,13 @@
 <template>
   <div id="example-1">
-    <div v-for="item in post">
-      <div v-html="item"></div>
+    <div v-for="(item, index) in post">
+      <div v-html="item" v-on:click="onCellClick(index)"></div>
     </div>
   </div>
 </template>
 <script>
   import httpUtil from '../httpUtil';
+  import router from '../router/index';
 
   export default {
     name: 'hello',
@@ -35,9 +36,10 @@
       },
       onCellClick(cellIndex) {
         console.log(`cell ${cellIndex} clicked`);
-        const item = this.items[cellIndex];
-        console.log(`push to product: ${item.products.id}`);
+        const item = this.cases[cellIndex];
+        console.log(`push to product: ${item}`);
 //        $router.forward('/c/product/'+item.products.id)
+        router.push({ path: 'hello' });
       },
 
       getIcon(ca) {
