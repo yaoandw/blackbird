@@ -20,7 +20,7 @@ export default {
       { name: 'viewport', content: 'width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' },
     ],
     link: [
-      { rel: 'stylesheet', href: '/css/index.css' },
+//      { rel: 'stylesheet', href: '/css/index.css' },
 //          { rel: 'favicon', href: 'favicon.ico' },
       { rel: 'shortcut icon', type: 'image/png', href: '/static/favicon.png' },
     ],
