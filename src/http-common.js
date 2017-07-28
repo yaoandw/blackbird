@@ -5,7 +5,7 @@ import axios from 'axios';
 import sess from './sess';
 
 export const HTTP = axios.create({
-  baseURL: 'http://www.jojo.la:3000/',
+  baseURL: 'http://www.jojo.la:8080/',
   // baseURL: 'https://www.jojo.la/',
   rejectUnauthorized: false,
   timeout: 1000,
