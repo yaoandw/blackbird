@@ -1,0 +1,41 @@
+.guide_main {
+  margin: 10px 20px 20px;
+  padding: 10px 10px;
+  background: white;
+}
+.guide_bg_top {
+  background-image: url('../subtask_bg_top.png');
+  height: 20px;
+  background-size: 100% 100%;
+}
+.guide_bg_bottom {
+  background-image: url('../subtask_bg_bottom.png');
+  height: 20px;
+  background-size: 100% 100%;
+}
+.guide_bg {
+  background-image: url('../subtask_bg_center.png');
+  display: inline-block;
+  /*background-size: contain;*/
+  background-size: 100% 100%;
+}
+
+.guide_main img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.guide_main p {
+  margin: 1px 0px;
+}
+
+.guide_header {
+  text-align: center;
+}
+.guide_header img {
+  margin-top: 30px;
+  height: 15px;
+}
+.guide_header p {
+  margin: 1px 0px;
+}

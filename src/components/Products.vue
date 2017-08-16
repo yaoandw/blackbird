@@ -10,7 +10,7 @@
   import router from '../router/index';
 
   export default {
-    name: 'hello',
+    name: 'products',
     data() {
       return {
         msg: 'Welcome to Your Vue.js App',

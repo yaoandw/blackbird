@@ -5,6 +5,7 @@ import Meta from 'vue-meta';
 import Vuex from 'vuex';
 import App from './App';
 import router from './router';
+import './assets/css/guide.css';
 
 Vue.use(Meta);
 Vue.use(Vuex);

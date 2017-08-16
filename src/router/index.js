@@ -1,7 +1,7 @@
 import Vue from 'vue';
 import Router from 'vue-router';
 import Hello from '@/components/Hello';
-import Strategy from '@/components/Strategy';
+import Guide from '@/components/guides/Guide';
 import Products from '@/components/Products';
 
 Vue.use(Router);
@@ -14,9 +14,9 @@ export default new Router({
       component: Hello,
     },
     {
-      path: '/strategy',
-      name: 'Strategy',
-      component: Strategy,
+      path: '/guide',
+      name: 'guide',
+      component: Guide,
     },
     {
       path: '/',
