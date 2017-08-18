@@ -6,7 +6,7 @@
         <img src="../../assets/subtask_nav_img.png"/>
         <p>攻略</p>
       </div>
-      <div class="guide_main">
+      <div class="guide_main white_bg">
         <p>Hi 恭喜您加入这次激动人心的“旅程”！</p>
         <br>
         <p>享受旅行是一件美妙的事，</p>
@@ -63,33 +63,13 @@
     },
     created() {
       // 组件创建完后获取数据，
-      // 此时 data 已经被 observed 了
-      this.fetchData();
+//      window.scrollTo(0, 0);
+    },
+    mounted() {
+//      console.log('in mounted');
+//      window.scrollTo(0, 0);
     },
     methods: {
-      fetchData() {
-      },
     },
   };
 </script>
-
-<!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
-  h1, h2 {
-    font-weight: normal;
-  }
-
-  ul {
-    list-style-type: none;
-    padding: 0;
-  }
-
-  li {
-    display: inline-block;
-    margin: 0 10px;
-  }
-
-  a {
-    color: #42b983;
-  }
-</style>

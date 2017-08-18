@@ -21,6 +21,7 @@ export default {
     ],
     link: [
 //      { rel: 'stylesheet', href: './assets/css/guide.css' },
+      { rel: 'script', href: '/static/blackbird.js' },
 //          { rel: 'favicon', href: 'favicon.ico' },
       { rel: 'shortcut icon', type: 'image/png', href: '/static/favicon.png' },
     ],

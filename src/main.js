@@ -3,12 +3,15 @@
 import Vue from 'vue';
 import Meta from 'vue-meta';
 import Vuex from 'vuex';
+import VueWebBridge from 'vue-bridge-webview';
 import App from './App';
 import router from './router';
 import './assets/css/guide.css';
+import '../static/blackbird';
 
 Vue.use(Meta);
 Vue.use(Vuex);
+Vue.use(VueWebBridge);
 
 Vue.config.productionTip = false;
 

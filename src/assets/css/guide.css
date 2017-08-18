@@ -1,6 +1,8 @@
 .guide_main {
   margin: 10px 20px 20px;
   padding: 10px 10px;
+}
+.white_bg {
   background: white;
 }
 .guide_bg_top {
@@ -20,6 +22,10 @@
   background-size: 100% 100%;
 }
 
+.guide_bg_vh {
+  height: 100vh;
+}
+
 .guide_main img {
   max-width: 100%;
   max-height: 100%;
@@ -31,6 +37,7 @@
 
 .guide_header {
   text-align: center;
+  width: 100vw;
 }
 .guide_header img {
   margin-top: 30px;
@@ -38,4 +45,20 @@
 }
 .guide_header p {
   margin: 1px 0px;
+}
+
+.guide_dir_bg {
+  background-image: url('../guide_btn_bg.png');
+  background-size: 100% 100%;
+  margin: 20px 0px;
+  height: 70px;
+}
+
+.guide_dir_bg_no {
+  padding: 14px 0px 0px 20px;
+}
+
+.guide_dir_bg_title {
+  text-align: center;
+  margin-top: -7px;
 }

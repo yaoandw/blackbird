@@ -23,6 +23,7 @@ module.exports = {
     }
   },
   // add your custom rules here
+  // http://eslint.cn/docs/rules/
   'rules': {
     // don't require .vue extension when importing
     'import/extensions': ['error', 'always', {
@@ -35,6 +36,7 @@ module.exports = {
     }],
     // allow debugger during development
     'no-debugger': process.env.NODE_ENV === 'production' ? 2 : 0,
-    'no-console': 0
+    'no-console': 0,
+    'no-unused-vars': 0
   }
 }
