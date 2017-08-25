@@ -14,6 +14,7 @@ import DrawbackFlow from '@/components/guides/DrawbackFlow';
 Vue.use(Router);
 
 const router = new Router({
+  mode: 'history', // 使用history模式需要后台支持,将请求都跳转到index.html(hash模式,跳转是在前端完成,history模式会请求后端)
   routes: [
     {
       path: '/hello',
