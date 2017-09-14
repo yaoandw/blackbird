@@ -19,6 +19,7 @@
     "vue-bridge-webview": "^1.0.0",
     "vue-meta": "^1.0.4",
     "vue-router": "^2.6.0",
+    "vue-ui-swipe": "^1.0.2",
     "vuex": "^2.3.1"
   },
   "devDependencies": {

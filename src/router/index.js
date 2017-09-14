@@ -2,6 +2,7 @@ import Vue from 'vue';
 import Router from 'vue-router';
 import Hello from '@/components/Hello';
 import Products from '@/components/Products';
+import ProductDetail from '@/components/ProductDetail';
 import Guide from '@/components/guides/Guide';
 import BuyGoods from '@/components/guides/BuyGoods';
 import BuyGoodsShops from '@/components/guides/BuyGoodsShops';
@@ -25,6 +26,21 @@ const router = new Router({
       path: '/',
       name: 'Products',
       component: Products,
+    },
+    {
+      path: '/products',
+      name: 'Products',
+      component: Products,
+    },
+    {
+      path: '/mobile',
+      name: 'Products',
+      component: Products,
+    },
+    {
+      path: '/productdetail',
+      name: 'ProductDetail',
+      component: ProductDetail,
     },
     {
       path: '/guide',

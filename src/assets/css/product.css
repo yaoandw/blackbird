@@ -1,0 +1,10 @@
+.product_properties {
+  font-size: 13px;
+}
+.product_properties p {
+  margin: 0px 10px;
+}
+.product_desc img {
+  width: 100%;
+  height: 100%;
+}

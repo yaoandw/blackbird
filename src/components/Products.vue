@@ -39,7 +39,7 @@
         const item = this.cases[cellIndex];
         console.log(`push to product: ${item}`);
 //        $router.forward('/c/product/'+item.products.id)
-        router.push({ path: 'hello' });
+        router.push({ name: 'ProductDetail', params: { ca: item } }); // 只有通过name push的情况才能拿到params
       },
 
       getIcon(ca) {

@@ -7,6 +7,7 @@ import VueWebBridge from 'vue-bridge-webview';
 import App from './App';
 import router from './router';
 import './assets/css/guide.css';
+import './assets/css/product.css';
 import '../static/blackbird';
 
 Vue.use(Meta);
